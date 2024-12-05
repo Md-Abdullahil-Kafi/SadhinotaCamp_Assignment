@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi-Variable';
+}
+
+.container  {
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+    
+}
+
+nav .logo img{
+    width: 107px;
+    cursor: pointer;
+    mix-blend-mode: difference;
+}
+
+nav .logo img:hover {
+    mix-blend-mode: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25.5px 80px ;
+    align-items: center;
+}
+nav .nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    mix-blend-mode: difference;
+    
+}
+
+
+nav .nav-links a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+}
+
+
+nav .cta-btn a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 18px;
+    border-radius: 12px;
+    mix-blend-mode: difference;
+    background-color: white;
+}
+
+nav .cta-btn a:hover{
+    background-color: white;
+    mix-blend-mode: normal;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+nav .menu-btn{
+    display: none;
+}
+
+
+.hero-image{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.over-lay{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+}
