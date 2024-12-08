@@ -67,6 +67,7 @@ nav .cta-btn a:hover{
 
 nav .menu-btn{
     display: none;
+    color: white;
 }
 
 
@@ -136,6 +137,8 @@ footer .right .left a{
     color: white;
 
 }
+
+
 footer .right .right{
     display: flex;
     flex-direction: column;
@@ -148,6 +151,16 @@ footer .right .right a{
     color: white;
 
 }
+
+
+footer .right a:hover{
+    color: black;
+    background-color: white;
+    padding: 2px 4px;
+    transition: .3s ease-in;
+    border-radius: 3px;
+}
+
 
 footer .right {
     display: flex;
@@ -162,6 +175,14 @@ footer .follow-us ul li{
 footer .follow-us ul li a {
     text-decoration: none;
     color: white;
+}
+
+footer .follow-us ul li a:hover{
+    color: black;
+    background-color: white;
+    padding: 2px 4px;
+    transition: .3s ease-in;
+    border-radius: 3px;
 }
 
 footer .right p{
@@ -193,3 +214,84 @@ footer .copyrights {
 footer img{
     height: 32px;
 }
+
+footer .back_to_top a {
+    text-decoration: none;
+    padding: 4px 10px;
+    color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    footer{
+        .contact{
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 360px) and (max-width: 767px) {
+
+    nav .menu-btn {
+        display: block;
+    }
+
+    nav .nav-links {
+        display: none;
+    } 
+
+    nav .cta-btn {
+        display: none;
+    }
+
+
+    nav {
+        padding: 19px 20px;
+    }
+
+
+
+    footer {
+        padding: 56px 20px ;
+  
+        .contents{
+        flex-direction: column;
+        }
+        h1{
+            max-width: 335px;
+        }
+
+        .contact{
+            flex-wrap: wrap;
+        }
+
+        .right{
+            flex-direction: column;
+        }
+
+        .follow-us ul {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .copyrights{
+            flex-direction: column;
+            row-gap: 24px;
+        }
+        .navigation{
+            margin-top: 24px;
+        }
+    }
+}   
