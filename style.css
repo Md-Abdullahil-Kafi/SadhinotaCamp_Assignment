@@ -59,15 +59,21 @@ nav .cta-btn a{
 
 nav .cta-btn a:hover{
     background-color: white;
-    mix-blend-mode: normal;
     color: black;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    mix-blend-mode: normal;
+    border-radius: 4px;
 }
 
 nav .menu-btn{
     display: none;
 }
 
+
+.hero{
+    height: 1024px;
+    width: 1440px;
+}
 
 .hero-image{
     width: 100%;
@@ -82,4 +88,108 @@ nav .menu-btn{
     top: 0;
     z-index: -1;
 
+}
+
+
+
+
+/* --------Footer------- */
+footer{
+    max-width: 1440px;
+    margin: auto;
+    padding: 80px 56px 40px 56px;
+    background-color: black;
+    color: white;
+}
+
+
+footer .left h1{
+    font-weight: normal ;
+    font-size: 32px;
+    width: 545px;
+}
+
+.contact {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+footer .contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .right .nav-links{
+    display: flex;
+    gap: 24px;
+}
+
+footer .right .left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    
+}
+footer .right .left a{
+    text-decoration: none;
+    color: white;
+
+}
+footer .right .right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 104px;
+    
+}
+footer .right .right a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer .right {
+    display: flex;
+    gap: 24px;
+}
+
+footer .follow-us ul li{
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+footer .follow-us ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .right p{
+    opacity: 60%;
+    padding-bottom:16px;
+}
+
+footer .left p{
+    color: #FCFCFC;
+}
+
+footer .left h4{
+    font-weight: normal;
+    font-size: 14px;
+    padding-bottom: 16px;
+    opacity: 60%;
+
+}
+
+footer .copyrights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    border-top: 1px solid white;
+    padding: 20px 0 0 0;
+}
+
+footer img{
+    height: 32px;
 }
